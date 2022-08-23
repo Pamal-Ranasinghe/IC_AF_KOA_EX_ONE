@@ -1,6 +1,16 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "json": "^11.0.0",
     "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.0",
     "mongoose": "^6.5.2"
+  },
+  "devDependencies": {
+    "@types/koa-bodyparser": "^4.3.7"
   }
 }
