@@ -32,4 +32,4 @@ const roomSchema = new Schema({
 }, {timeseries: true});
 
 const Room = mongoose.model('Room', roomSchema);
-module.expors = Room;
+module.exports = Room;
