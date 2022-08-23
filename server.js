@@ -19,6 +19,10 @@ app.use(router.routes()).use(router.allowedMethods());
 app.use (categoryRoutes.routes());
 // app.use(roomRoutes.routes());
 
+app.use(async ctx => {
+    ctx.body = 'Hello World';
+}); 
+
 
 app.listen(3000, () => {
     dbConnect();
